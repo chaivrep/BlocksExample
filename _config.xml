@@ -1,0 +1,31 @@
+<prototype>
+<metadata title="Peter's Prototype Annotation Sample">
+    <!-- Metadata, like Prototype Title //-->
+	<client name="[Client Name]" />
+    <version number="0.1" date="November 1, 2012" />
+    <author name="Peter Chaivre" email="test@test.com" />
+</metadata>
+<pages>
+    <!-- Page-by-page inventory //-->
+	<page id="home" title="Home" description="The site's home page" />
+	<page id="about" title="About" description="A page describing us" />
+</pages>
+<components>
+    <!-- Additional components not already loaded by pages //-->
+	<component id="page-header" title="Header" />
+	<component id="page-footer" title="Footer" />
+</components>
+<display>
+    <!-- Preferences like show or hide the toolbar //-->
+	<property name="markers" value="on" />
+    <property name="toolbar" value="on" />
+    <property name="toolbarlocation" value="topright" />
+    <property name="homepage" value="on" />
+	<property name="responsiveviewer" value="on" />
+	<property name="componentcontainer" value="container-comp" />
+
+</display>
+<deviceprofiles>
+    <!-- Enable toggling between containers like iPad, iPhone //-->
+</deviceprofiles>
+</prototype>
